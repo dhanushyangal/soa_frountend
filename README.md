@@ -1,9 +1,9 @@
-# BidVelocity frontend
+# BidEasy frontend
 
 Next.js App Router floor. Clerk sign-in, live lots, wallet in **INR (₹)**.
 
-Repo: https://github.com/Tharak23/soa-bidding  
-Backend must be running at `http://localhost:8080` (see https://github.com/Tharak23/soa-bidding-backend).
+Repo: https://github.com/dhanushyangal/soa_frountend  
+Backend must be running at `http://localhost:8080` (see https://github.com/dhanushyangal/Soa_backand).
 
 ---
 

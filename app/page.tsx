@@ -22,7 +22,7 @@ export default async function LandingPage() {
           <span className="flex size-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <Gavel className="h-4 w-4" />
           </span>
-          <span className="font-bold tracking-tight">BidVelocity</span>
+          <span className="font-bold tracking-tight">BidEasy</span>
         </div>
         <div className="flex items-center gap-2">
           <SignInButton forceRedirectUrl="/marketplace">
@@ -179,7 +179,7 @@ export default async function LandingPage() {
       </main>
 
       <footer className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-6 text-sm text-muted-foreground">
-        <span>BidVelocity marketplace</span>
+        <span>BidEasy marketplace</span>
         <Button variant="link" asChild>
           <Link href="/sign-in">Enter the floor</Link>
         </Button>

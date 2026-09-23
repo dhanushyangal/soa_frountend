@@ -1,6 +1,6 @@
 /**
  * Currency and subunit formatting utilities.
- * All monetary amounts in BidVelocity are stored as integer subunits (1 INR = 100 Paise).
+ * All monetary amounts in BidEasy are stored as integer subunits (1 INR = 100 Paise).
  */
 
 export function formatInr(subunits: number, currency = "INR") {

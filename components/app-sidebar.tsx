@@ -37,7 +37,7 @@ export function AppSidebar() {
           <span className="flex size-7 items-center justify-center rounded-md bg-sidebar-primary text-sidebar-primary-foreground">
             <Gavel className="h-4 w-4" />
           </span>
-          <span className="font-bold text-sidebar-foreground">BidVelocity</span>
+          <span className="font-bold text-sidebar-foreground">BidEasy</span>
         </div>
       </SidebarHeader>
       <SidebarContent>

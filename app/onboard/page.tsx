@@ -116,7 +116,7 @@ export default function OnboardPage() {
               </Field>
             </FieldGroup>
             <Button type="submit" disabled={saving || displayName.trim().length === 0}>
-              Enter BidVelocity
+              Enter BidEasy
             </Button>
           </form>
         </CardContent>

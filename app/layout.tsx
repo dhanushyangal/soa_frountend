@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "BidVelocity",
+  title: "BidEasy",
   description: "Live marketplace auctions with a Dodo-funded wallet.",
 };
 
