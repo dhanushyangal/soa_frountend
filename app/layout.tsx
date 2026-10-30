@@ -1,18 +1,10 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { DM_Sans } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 import { shadcn } from "@clerk/ui/themes";
 
 import "./globals.css";
 import "./clerk.css";
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-dm-sans",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "BidEasy",
@@ -28,7 +20,15 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   const allowedRedirectOrigins = Array.from(new Set(["http://localhost:3000", origin]));
 
   return (
-    <html lang="en" className={`${dmSans.variable} ${dmSans.className} h-full antialiased`}>
+    <html lang="en" className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ClerkProvider appearance={{ theme: shadcn }} allowedRedirectOrigins={allowedRedirectOrigins}>
           {children}
